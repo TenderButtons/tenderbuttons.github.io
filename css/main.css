@@ -424,7 +424,7 @@ svg {
 /* line 44, ../scss/partials/_layout.scss */
 .frame {
   border-radius: 25px;
-  padding: 0.5em 0.9em;
+  padding: 0.4em 0.8em;
   text-align: center; }
   /* line 48, ../scss/partials/_layout.scss */
   .frame img {
