@@ -1,9 +1,28 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+  {% if page.fill %}
+  <div class="frame" style="background-color: {{ page.fill }}">
+  {% else %}
+  <div class="frame frame-default">
+  {% endif %}
+  
+    <a href="{{ page.url }}"><img src="{{ page.image }}" alt="{{ page.title }}"></a>
+  </div> <!-- end of frame -->
 
-<div id="post">
-{{ content }}
-</div>
+  <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+  <h2 class="date">{{ page.date | date_to_string }}</h2>
+
+  <div class="excerpt">
+  {{ content }}
+  </div>
+  
+  <nav class="page-nav">
+  {% if page.previous.url %}
+  <a href="{{page.previous.url}}" class="previous">previous</a>
+  {% endif %}
+
+  {% if page.next.url %}
+  <a href="{{page.next.url}}" class="next">next</a>
+  {% endif %}
+  </nav>

@@ -368,5 +368,159 @@ table {
   border-spacing: 0; }
 
 /* line 1, ../scss/partials/_layout.scss */
-html {
-  background: #fbc599; }
+* {
+  box-sizing: border-box; }
+
+/* line 3, ../scss/partials/_layout.scss */
+html, body {
+  height: 100%; }
+
+/* line 7, ../scss/partials/_layout.scss */
+img {
+  height: auto;
+  width: 100%; }
+
+/* line 9, ../scss/partials/_layout.scss */
+body {
+  background: white; }
+
+/* line 13, ../scss/partials/_layout.scss */
+.page-wrap {
+  margin: 0 auto;
+  max-width: 55em;
+  min-height: 100%;
+  width: 90%;
+  padding-bottom: 5em; }
+
+/* line 21, ../scss/partials/_layout.scss */
+header {
+  margin: 0 auto;
+  max-width: 58em;
+  padding-top: 1.5em;
+  width: 95%; }
+
+/* line 28, ../scss/partials/_layout.scss */
+object {
+  pointer-events: none; }
+
+/* line 30, ../scss/partials/_layout.scss */
+a.home-link {
+  display: inline-block; }
+
+/* line 32, ../scss/partials/_layout.scss */
+svg {
+  max-height: 100%; }
+
+/* line 34, ../scss/partials/_layout.scss */
+.main-content {
+  margin: 0 auto;
+  max-width: 35em;
+  padding-top: 2em; }
+
+/* line 40, ../scss/partials/_layout.scss */
+.frame {
+  border-radius: 25px;
+  padding: 1em 2em;
+  text-align: center; }
+  /* line 44, ../scss/partials/_layout.scss */
+  .frame img {
+    border-radius: 25px; }
+
+/* line 47, ../scss/partials/_layout.scss */
+.frame-default {
+  background-color: #aed8e6; }
+
+/* line 51, ../scss/partials/_layout.scss */
+h2.date {
+  margin: 0;
+  text-align: center; }
+
+@media (min-width: 25em) {
+  /* line 53, ../scss/partials/_layout.scss */
+  .excerpt {
+    margin: 0 auto;
+    width: 90%; } }
+
+/* line 60, ../scss/partials/_layout.scss */
+.complete-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0; }
+  /* line 64, ../scss/partials/_layout.scss */
+  .complete-list li {
+    border-bottom: 2px solid #676767;
+    padding: 1em 0; }
+    /* line 67, ../scss/partials/_layout.scss */
+    .complete-list li h1 {
+      margin: 0; }
+
+/* line 71, ../scss/partials/_layout.scss */
+.page-nav {
+  padding-top: 2em; }
+  /* line 73, ../scss/partials/_layout.scss */
+  .page-nav .next {
+    float: right; }
+
+/* line 76, ../scss/partials/_layout.scss */
+footer {
+  color: white;
+  background-color: #ef8080;
+  font-size: 1.7em;
+  padding: 2em 0;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center; }
+  /* line 84, ../scss/partials/_layout.scss */
+  footer ul {
+    list-style: none; }
+  /* line 85, ../scss/partials/_layout.scss */
+  footer li {
+    display: inline-block; }
+  /* line 86, ../scss/partials/_layout.scss */
+  footer a {
+    color: white; }
+
+/* line 1, ../scss/partials/_type.scss */
+body {
+  color: #676767;
+  font-family: "calluna",sans-serif;
+  font-size: 110%;
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+  @media (min-width: 25em) {
+    /* line 1, ../scss/partials/_type.scss */
+    body {
+      font-size: 115%; } }
+  @media (min-width: 40em) {
+    /* line 1, ../scss/partials/_type.scss */
+    body {
+      font-size: 120%; } }
+  @media (min-width: 50em) {
+    /* line 1, ../scss/partials/_type.scss */
+    body {
+      font-size: 130%; } }
+
+/* line 20, ../scss/partials/_type.scss */
+h1, h2, h3, h4, h5 {
+  font-family: "calluna-sans",sans-serif;
+  font-weight: 400; }
+
+/* line 22, ../scss/partials/_type.scss */
+h1 {
+  font-style: italic;
+  margin: 0;
+  padding-top: .5em;
+  text-align: center; }
+  /* line 27, ../scss/partials/_type.scss */
+  h1 a {
+    color: #ef8080;
+    text-decoration: none; }
+
+/* line 33, ../scss/partials/_type.scss */
+a {
+  color: #ef8080;
+  text-decoration: none; }

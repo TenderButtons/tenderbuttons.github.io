@@ -1,2 +1,5 @@
-name: Your New Jekyll Site
+name: Tender Buttons Illustrated
 pygments: true
+author:
+description:
+permalink: /:title/

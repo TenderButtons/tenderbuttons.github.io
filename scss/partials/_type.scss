@@ -1,0 +1,37 @@
+body {
+  color: $text;
+  font-family: "calluna",sans-serif;
+  font-size: 110%;
+  font-style: normal;
+  font-weight: 400;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  @media (min-width: $break-one){
+    font-size:115%;
+  }
+  @media (min-width: $break-two){
+    font-size:120%;
+  }
+  @media (min-width: $break-three){
+    font-size:130%;
+  }
+}
+
+h1, h2, h3, h4, h5 {font-family: "calluna-sans",sans-serif; font-weight: 400;}
+
+h1 {
+  font-style: italic;
+  margin: 0;
+  padding-top: .5em;
+  text-align: center;
+  a{
+    color: $ornament;
+    text-decoration: none;
+  } 
+}
+
+a {color: $ornament; text-decoration: none;}
+
+.excerpt {
+  
+}
