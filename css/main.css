@@ -424,52 +424,55 @@ svg {
 /* line 44, ../scss/partials/_layout.scss */
 .frame {
   border-radius: 25px;
-  padding: 0.4em 0.8em;
+  padding: 0.4em 0.4em;
   text-align: center; }
   /* line 48, ../scss/partials/_layout.scss */
   .frame img {
     border-radius: 25px; }
+  /* line 49, ../scss/partials/_layout.scss */
+  .frame a {
+    display: block; }
   @media (min-width: 40em) {
     /* line 44, ../scss/partials/_layout.scss */
     .frame {
-      padding: 1em 2em; } }
+      padding: 1em 1em; } }
 
-/* line 54, ../scss/partials/_layout.scss */
+/* line 55, ../scss/partials/_layout.scss */
 .frame-default {
   background-color: #aed8e6; }
 
-/* line 58, ../scss/partials/_layout.scss */
+/* line 59, ../scss/partials/_layout.scss */
 h2.date {
   margin: 0;
   text-align: center; }
 
 @media (min-width: 25em) {
-  /* line 60, ../scss/partials/_layout.scss */
+  /* line 61, ../scss/partials/_layout.scss */
   .excerpt {
     margin: 0 auto;
     width: 90%; } }
 
-/* line 67, ../scss/partials/_layout.scss */
+/* line 68, ../scss/partials/_layout.scss */
 .complete-list {
   list-style: none;
   margin: 0;
   padding-left: 0; }
-  /* line 71, ../scss/partials/_layout.scss */
+  /* line 72, ../scss/partials/_layout.scss */
   .complete-list li {
     border-bottom: 2px solid #676767;
     padding: 1em 0; }
-    /* line 74, ../scss/partials/_layout.scss */
+    /* line 75, ../scss/partials/_layout.scss */
     .complete-list li h1 {
       margin: 0; }
 
-/* line 78, ../scss/partials/_layout.scss */
+/* line 79, ../scss/partials/_layout.scss */
 .page-nav {
   padding-top: 2em; }
-  /* line 80, ../scss/partials/_layout.scss */
+  /* line 81, ../scss/partials/_layout.scss */
   .page-nav .next {
     float: right; }
 
-/* line 83, ../scss/partials/_layout.scss */
+/* line 84, ../scss/partials/_layout.scss */
 footer {
   color: white;
   background-color: #ef8080;
@@ -480,13 +483,13 @@ footer {
   right: 0;
   left: 0;
   text-align: center; }
-  /* line 91, ../scss/partials/_layout.scss */
+  /* line 92, ../scss/partials/_layout.scss */
   footer ul {
     list-style: none; }
-  /* line 92, ../scss/partials/_layout.scss */
+  /* line 93, ../scss/partials/_layout.scss */
   footer li {
     display: inline-block; }
-  /* line 93, ../scss/partials/_layout.scss */
+  /* line 94, ../scss/partials/_layout.scss */
   footer a {
     color: white; }
 

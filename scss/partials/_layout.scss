@@ -43,11 +43,12 @@ svg { max-height: 100%; }
 
 .frame {
   border-radius: $borderradius;
-  padding: .4em .8em ;
+  padding: .4em .4em ;
   text-align: center;
   img {border-radius: $borderradius;}
+  a {display: block;}
       @media (min-width: $break-two){
-          padding: 1em 2em ;
+          padding: 1em 1em ;
 }
 }
 
