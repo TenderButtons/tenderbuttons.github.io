@@ -415,53 +415,61 @@ svg {
 .main-content {
   margin: 0 auto;
   max-width: 35em;
-  padding-top: 2em; }
+  padding-top: 1em; }
+  @media (min-width: 40em) {
+    /* line 34, ../scss/partials/_layout.scss */
+    .main-content {
+      padding-top: 2em; } }
 
-/* line 40, ../scss/partials/_layout.scss */
+/* line 44, ../scss/partials/_layout.scss */
 .frame {
   border-radius: 25px;
-  padding: 1em 2em;
+  padding: 0.5em 0.9em;
   text-align: center; }
-  /* line 44, ../scss/partials/_layout.scss */
+  /* line 48, ../scss/partials/_layout.scss */
   .frame img {
     border-radius: 25px; }
+  @media (min-width: 40em) {
+    /* line 44, ../scss/partials/_layout.scss */
+    .frame {
+      padding: 1em 2em; } }
 
-/* line 47, ../scss/partials/_layout.scss */
+/* line 54, ../scss/partials/_layout.scss */
 .frame-default {
   background-color: #aed8e6; }
 
-/* line 51, ../scss/partials/_layout.scss */
+/* line 58, ../scss/partials/_layout.scss */
 h2.date {
   margin: 0;
   text-align: center; }
 
 @media (min-width: 25em) {
-  /* line 53, ../scss/partials/_layout.scss */
+  /* line 60, ../scss/partials/_layout.scss */
   .excerpt {
     margin: 0 auto;
     width: 90%; } }
 
-/* line 60, ../scss/partials/_layout.scss */
+/* line 67, ../scss/partials/_layout.scss */
 .complete-list {
   list-style: none;
   margin: 0;
   padding-left: 0; }
-  /* line 64, ../scss/partials/_layout.scss */
+  /* line 71, ../scss/partials/_layout.scss */
   .complete-list li {
     border-bottom: 2px solid #676767;
     padding: 1em 0; }
-    /* line 67, ../scss/partials/_layout.scss */
+    /* line 74, ../scss/partials/_layout.scss */
     .complete-list li h1 {
       margin: 0; }
 
-/* line 71, ../scss/partials/_layout.scss */
+/* line 78, ../scss/partials/_layout.scss */
 .page-nav {
   padding-top: 2em; }
-  /* line 73, ../scss/partials/_layout.scss */
+  /* line 80, ../scss/partials/_layout.scss */
   .page-nav .next {
     float: right; }
 
-/* line 76, ../scss/partials/_layout.scss */
+/* line 83, ../scss/partials/_layout.scss */
 footer {
   color: white;
   background-color: #ef8080;
@@ -472,13 +480,13 @@ footer {
   right: 0;
   left: 0;
   text-align: center; }
-  /* line 84, ../scss/partials/_layout.scss */
+  /* line 91, ../scss/partials/_layout.scss */
   footer ul {
     list-style: none; }
-  /* line 85, ../scss/partials/_layout.scss */
+  /* line 92, ../scss/partials/_layout.scss */
   footer li {
     display: inline-block; }
-  /* line 86, ../scss/partials/_layout.scss */
+  /* line 93, ../scss/partials/_layout.scss */
   footer a {
     color: white; }
 

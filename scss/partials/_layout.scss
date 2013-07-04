@@ -34,14 +34,21 @@ svg { max-height: 100%; }
 .main-content {
   margin: 0 auto;
   max-width: 35em;
-  padding-top: 2em;
+  padding-top: 1em;
+    @media (min-width: $break-two){
+        padding-top: 2em;
+
+}
 }
 
 .frame {
   border-radius: $borderradius;
-  padding: 1em 2em ;
+  padding: .5em .9em ;
   text-align: center;
   img {border-radius: $borderradius;}
+      @media (min-width: $break-two){
+          padding: 1em 2em ;
+}
 }
 
 .frame-default {
