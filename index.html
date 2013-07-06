@@ -3,21 +3,33 @@ layout: default
 title: Tender Buttons
 ---
   
-{% for post in site.posts limit:1 %}
-  {% if post.fill %}
-  <div class="frame" style="background-color: {{ post.fill }}">
+
+{% assign first_post = site.posts.first %}
+
+  {% if first_post.fill %}
+  <div class="frame" style="background-color: {{ first_post.fill }}">
   {% else %}
   <div class="frame frame-default">
   {% endif %}
   
-    <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+    <a href="{{ first_post.url }}"><img src="{{ first_post.image }}" alt="{{ first_post.title }}"></a>
   </div> <!-- end of frame -->
 
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <h2 class="date">{{ post.date | date_to_string }}</h2>
+  <h1><a href="{{ post.url }}">{{ first_post.title }}</a></h1>
+  <h2 class="date">{{ first_post.date | date_to_string }}</h2>
 
   <div class="excerpt">
-  {{ post.content }}
+    {{ first_post.content }}
   </div>
+  
+  <nav class="page-nav">
+  
+  {% if first_post.previous.url %}
+  <a href="{{first_post.previous.url}}" class="previous">previous</a>
+  {% endif %}
 
-{% endfor %}
+  {% if first_post.next.url %}
+  <a href="{{first_post.next.url}}" class="next">next</a>
+  {% endif %}
+  
+  </nav>
