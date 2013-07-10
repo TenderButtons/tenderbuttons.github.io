@@ -5,13 +5,13 @@ description:
 permalink: /:title/
 
 prose:
-  rooturl: "_posts"
+  rooturl: "_posts, resources"
   siteurl: "http://tenderbuttons.github.io"
   metadata:
     _posts:
       - name: "layout"
         field:
-          element: "text"
+          element: "hidden"
           label: "Layout"
           value: "post"
       - name: "title"
@@ -19,3 +19,8 @@ prose:
           element: "text"
           label: "Title"
           value: " "
+      - name: "photo_url"
+        field:
+          element: "text"
+          label: "Photo URL"
+          value: "/resources/ "

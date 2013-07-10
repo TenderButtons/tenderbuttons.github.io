@@ -3,7 +3,7 @@ layout: post
 title: "Glazed Glitter"
 date: 2013-06-25
 published: true
-image: https://dl.dropboxusercontent.com/u/89890057/1061105_10100734730885508_1961234352_n.jpg
+image: /resources/glazed-glitter.jpg
 outlines: 
 fill: 
 ornament:

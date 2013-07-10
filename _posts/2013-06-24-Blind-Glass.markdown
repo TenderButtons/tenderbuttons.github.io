@@ -3,7 +3,7 @@ layout: post
 title: "A Carafe, that is a Blind Glass"
 date: 2013-06-24
 published: true
-image: glazed.jpg
+image: /resources/blind-glass.jpg
 outlines: 
 fill: 
 ornament:
