@@ -19,7 +19,7 @@ prose:
           element: "text"
           label: "Title"
           value: " "
-      - name: "photo_url"
+      - name: "image"
         field:
           element: "text"
           label: "Photo URL"
