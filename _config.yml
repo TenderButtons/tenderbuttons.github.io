@@ -18,9 +18,9 @@ prose:
         field:
           element: "text"
           label: "Title"
-          value: " "
+          value: ""
       - name: "image"
         field:
           element: "text"
           label: "Photo URL"
-          value: "/resources/ "
+          value: "/resources/"
