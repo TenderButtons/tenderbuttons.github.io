@@ -4,7 +4,7 @@ author: Sadie Starnes
 description:
 permalink: /:title/
 prose:
-  rooturl: "_posts"
+  rooturl: 
   siteurl: "http://tenderbuttons.github.io"
   metadata:
     _posts:
