@@ -12,10 +12,10 @@ title: Tender Buttons
   <div class="frame frame-default">
   {% endif %}
   
-    <a href="{{ first_post.url }}"><img src="{{ first_post.image }}" alt="{{ first_post.title }}"></a>
+    <a href="{{ first_post.image }}"><img src="{{ first_post.image }}" alt="{{ first_post.title }}"></a>
   </div> <!-- end of frame -->
 
-  <h1><a href="{{ post.url }}">{{ first_post.title }}</a></h1>
+  <h1><a href="{{ first_post.url }}">{{ first_post.title }}</a></h1>
   <h2 class="date">{{ first_post.date | date_to_string }}</h2>
 
   <div class="excerpt">

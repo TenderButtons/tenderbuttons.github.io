@@ -3,9 +3,8 @@ pygments: true
 author: Sadie Starnes
 description:
 permalink: /:title/
-
 prose:
-  rooturl: "_posts", "resources"
+  rooturl: "_posts"
   siteurl: "http://tenderbuttons.github.io"
   metadata:
     _posts:
