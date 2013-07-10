@@ -4,10 +4,6 @@ title: "Glazed Glitter"
 date: 2013-06-25
 published: true
 image: /resources/glazed-glitter.jpg
-outlines: 
-fill: 
-ornament:
-text: 
 ---
 
 Nickel, what is nickel, it is originally rid of a cover. 
