@@ -20,7 +20,7 @@ body {
 
 header {
   margin: 0 auto;
-  max-width: 58em;
+  max-width: 50em;
   padding-top: 1.5em;
   width: 95%;
 }
@@ -33,7 +33,7 @@ svg { max-height: 100%; }
 
 .main-content {
   margin: 0 auto;
-  max-width: 35em;
+  max-width: 30em;
   padding-top: 1em;
     @media (min-width: $break-two){
         padding-top: 2em;
@@ -72,7 +72,7 @@ h2.date { margin: 0; text-align: center; }
   li {
     border-bottom: 2px solid $text;
     padding: 1em 0;
-    h1 {margin: 0;}
+    h1 {margin: 0; padding: 0;}
   }
 }
 

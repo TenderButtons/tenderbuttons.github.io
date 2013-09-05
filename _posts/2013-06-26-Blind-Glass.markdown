@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Carafe, that is a Blind Glass"
-date: 2013-06-24
+date: 2013-06-26
 published: true
 image: /resources/blind-glass.jpg
 outlines: 
