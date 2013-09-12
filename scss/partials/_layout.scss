@@ -56,7 +56,18 @@ svg { max-height: 100%; }
   background-color: $fill;
   }
 
-h2.date { margin: 0; text-align: center; }
+h2.subtitle { 
+  color: lighten($text, 5%);
+  font-size: .9em;
+  margin: 0; 
+  text-align: center; 
+  &:before{
+    content:"“";
+  }
+  &:after {
+    content: "”";
+  }
+}
 
 .excerpt {
   @media (min-width: $break-one){
@@ -73,6 +84,9 @@ h2.date { margin: 0; text-align: center; }
     border-bottom: 2px solid $text;
     padding: 1em 0;
     h1 {margin: 0; padding: 0;}
+  }
+  li:last-child {
+    border-bottom: none;
   }
 }
 

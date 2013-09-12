@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Red Roses"
+date: 2013-09-11
+published: true
+image: /resources/red-roses.jpg
+---
+
+A cool red rose and a pink cut pink, a collapse and a sold hole, a little less hot. 
